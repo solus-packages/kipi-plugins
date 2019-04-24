@@ -1,0 +1,30 @@
+name       : kipi-plugins
+version    : 5.9.1
+release    : 1
+source     :
+    - https://cdn.download.kde.org/stable/kipi-plugins/kipi-plugins-5.9.1.tar.xz : 04b3d31ac042b901216ad8ba67dafc46b58c8a285b5162b51189833f6d015542
+license    : GPL-2.0-or-later
+component  : multimedia.graphics
+summary    : A collection of plugins extending the KDE graphics and image applications
+description: |
+    A collection of plugins extending the KDE graphics and image applications
+replaces   :
+    - digikam-kipi-plugins
+builddeps  :
+    - pkgconfig(Qt5Svg)
+    - pkgconfig(Qt5XmlPatterns)
+    - extra-cmake-modules
+    - karchive-devel
+    - ki18n-devel
+    - kio-devel
+    - kservice-devel
+    - kwindowsystem-devel
+    - kxmlgui-devel
+    - libkipi-devel
+    - libkvkontakte-devel
+setup      : |
+    %cmake_ninja
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install
