@@ -1,8 +1,8 @@
 name       : kipi-plugins
-version    : 5.9.1
-release    : 1
+version    : 19.08.0
+release    : 2
 source     :
-    - https://cdn.download.kde.org/stable/kipi-plugins/kipi-plugins-5.9.1.tar.xz : 04b3d31ac042b901216ad8ba67dafc46b58c8a285b5162b51189833f6d015542
+    - https://cdn.download.kde.org/stable/applications/19.08.0/src/kipi-plugins-19.08.0.tar.xz : 21fb6b997aeeeb462fd83ff90a36597b5c74b5711a837959f1e6cdc9a300c4e9
 license    : GPL-2.0-or-later
 component  : multimedia.graphics
 summary    : A collection of plugins extending the KDE graphics and image applications
