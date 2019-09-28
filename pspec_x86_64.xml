@@ -369,7 +369,14 @@
             <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/kipiplugin_flashexport.mo</Path>
             <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/kipiplugin_flickr.mo</Path>
             <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/kipiplugin_googleservices.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/kipiplugin_imageshack.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/kipiplugin_imgur.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/kipiplugin_jalbum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/kipiplugin_kmlexport.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/kipiplugin_mediawiki.mo</Path>
             <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/kipiplugin_piwigo.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/kipiplugin_printimages.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/kipiplugin_rajce.mo</Path>
             <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/kipiplugin_remotestorage.mo</Path>
             <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/kipiplugin_sendimages.mo</Path>
             <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/kipiplugin_smug.mo</Path>
@@ -603,6 +610,25 @@
             <Path fileType="localedata">/usr/share/locale/lt/LC_MESSAGES/kipiplugins.mo</Path>
             <Path fileType="localedata">/usr/share/locale/lv/LC_MESSAGES/kipiplugin_sendimages.mo</Path>
             <Path fileType="localedata">/usr/share/locale/lv/LC_MESSAGES/kipiplugins.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_dropbox.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_facebook.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_flashexport.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_flickr.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_googleservices.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_imageshack.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_imgur.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_jalbum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_kmlexport.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_mediawiki.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_piwigo.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_printimages.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_rajce.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_remotestorage.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_sendimages.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_smug.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_vkontakte.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugin_yandexfotki.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/kipiplugins.mo</Path>
             <Path fileType="localedata">/usr/share/locale/mr/LC_MESSAGES/kipiplugin_facebook.mo</Path>
             <Path fileType="localedata">/usr/share/locale/mr/LC_MESSAGES/kipiplugin_flashexport.mo</Path>
             <Path fileType="localedata">/usr/share/locale/mr/LC_MESSAGES/kipiplugin_flickr.mo</Path>
@@ -934,16 +960,16 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="2">kipi-plugins</Dependency>
+            <Dependency release="3">kipi-plugins</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib64/libKF5kipiplugins.so</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2019-08-16</Date>
-            <Version>19.08.0</Version>
+        <Update release="3">
+            <Date>2019-09-21</Date>
+            <Version>19.08.1</Version>
             <Comment>Packaging update</Comment>
             <Name>F. von Gellhorn</Name>
             <Email>flinux@vongellhorn.ch</Email>
