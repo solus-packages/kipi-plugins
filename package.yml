@@ -1,6 +1,6 @@
 name       : kipi-plugins
 version    : 19.08.3
-release    : 5
+release    : 6
 source     :
     - https://cdn.download.kde.org/stable/applications/19.08.3/src/kipi-plugins-19.08.3.tar.xz : f540e517421503b54e906633c71c2f688bb920c5aefe7d05a13d0eeaf0356a9b
 license    : GPL-2.0-or-later

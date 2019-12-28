@@ -960,15 +960,15 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="5">kipi-plugins</Dependency>
+            <Dependency release="6">kipi-plugins</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib64/libKF5kipiplugins.so</Path>
         </Files>
     </Package>
     <History>
-        <Update release="5">
-            <Date>2019-11-09</Date>
+        <Update release="6">
+            <Date>2019-12-14</Date>
             <Version>19.08.3</Version>
             <Comment>Packaging update</Comment>
             <Name>F. von Gellhorn</Name>
