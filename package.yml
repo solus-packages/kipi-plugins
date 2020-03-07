@@ -1,8 +1,8 @@
 name       : kipi-plugins
-version    : 19.12.2
-release    : 9
+version    : 19.12.3
+release    : 10
 source     :
-    - https://cdn.download.kde.org/stable/release-service/19.12.2/src/kipi-plugins-19.12.2.tar.xz : f7e835e9e282d67bfd6aabe9f8d9482da42ee686b6d27aa736fd212cf21ce1ac
+    - https://cdn.download.kde.org/stable/release-service/19.12.3/src/kipi-plugins-19.12.3.tar.xz : 16997bd6fbb59c194c2997732c870e33bbacd3d7346546af9a255db3330ec5ac
 homepage   : https://kde.org/
 license    : GPL-2.0-or-later
 component  : multimedia.graphics
