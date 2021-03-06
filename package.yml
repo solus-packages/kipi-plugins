@@ -1,8 +1,8 @@
 name       : kipi-plugins
-version    : 20.12.2
-release    : 23
+version    : 20.12.3
+release    : 24
 source     :
-    - https://cdn.download.kde.org/stable/release-service/20.12.2/src/kipi-plugins-20.12.2.tar.xz : 880ad1541cbe786da960510e16b618505c779e7b44a3c39019e46cece6891e88
+    - https://cdn.download.kde.org/stable/release-service/20.12.3/src/kipi-plugins-20.12.3.tar.xz : 16be32705e6056de9350d3713ab6b20659a236db1356eb32cd6cdd19ac71c071
 homepage   : https://kde.org/
 license    : GPL-2.0-or-later
 component  : multimedia.graphics
