@@ -1,8 +1,8 @@
 name       : kipi-plugins
-version    : 21.08.0
-release    : 29
+version    : 21.08.1
+release    : 30
 source     :
-    - https://cdn.download.kde.org/stable/release-service/21.08.0/src/kipi-plugins-21.08.0.tar.xz : 6fdb86bfb2ae1d13a1aa5a779cebfcec2c6331f43e2624b57282f69eba06d675
+    - https://cdn.download.kde.org/stable/release-service/21.08.1/src/kipi-plugins-21.08.1.tar.xz : 2d5e023886f36f72fe00c3be1fc73aa886a7ef791e5c6cb62c415a60f9e0daf0
 homepage   : https://kde.org/
 license    : GPL-2.0-or-later
 component  : multimedia.graphics
