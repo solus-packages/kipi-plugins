@@ -758,6 +758,7 @@
             <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/kipiplugin_vkontakte.mo</Path>
             <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/kipiplugin_yandexfotki.mo</Path>
             <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/kipiplugins.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/kipiplugin_dropbox.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/kipiplugin_facebook.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/kipiplugin_flickr.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/kipiplugin_googleservices.mo</Path>
@@ -948,16 +949,16 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="34">kipi-plugins</Dependency>
+            <Dependency release="35">kipi-plugins</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib64/libKF5kipiplugins.so</Path>
         </Files>
     </Package>
     <History>
-        <Update release="34">
-            <Date>2022-01-09</Date>
-            <Version>21.12.1</Version>
+        <Update release="35">
+            <Date>2022-03-05</Date>
+            <Version>21.12.3</Version>
             <Comment>Packaging update</Comment>
             <Name>F. von Gellhorn</Name>
             <Email>flinux@vongellhorn.ch</Email>
